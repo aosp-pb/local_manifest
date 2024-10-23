@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="aospb"
+         fetch="https://github.com/aosp-pb" />
+<remote name="clarence"
+         fetch="https://github.com/clarencekopitiam" />
+
+  <!-- Device Trees -->
+  <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll.git" remote="aospb" revision="15"  />
+        
+  <!-- Kernel Trees-->
+  <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250.git" remote="clarence" revision="15" />
+
+  <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_lancelot.git" remote="clarence" revision="15"  />
+        
+</manifest>
