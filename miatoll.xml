@@ -15,5 +15,14 @@
 
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_lancelot.git" remote="clarence" revision="15"  />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="remove.xml" />
+
+  <!-- My repos -->
+  <include name="include.xml" />
+
+  <!-- Lineage repos -->
+  <include name="lineage.xml" />
         
 </manifest>
