@@ -2,8 +2,8 @@
 
 <manifest>
 
-<remote name="aospb"
-         fetch="https://github.com/aosp-pb" />
+<!-- <remote name="aospb"
+         fetch="https://github.com/aosp-pb" /> -->
 <remote name="clarence"
          fetch="https://github.com/clarencekopitiam" />
 
